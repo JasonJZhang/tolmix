@@ -12,7 +12,8 @@ models — e.g. a future measurement from a *new* batch, lot, lab, or subject.
 ## Installation
 
 ```r
-install.packages("tolmix_0.1.0.tar.gz", repos = NULL, type = "source")
+# install.packages("remotes")
+remotes::install_github("JasonJZhang/tolmix")
 ```
 
 `lme4` is needed only for `tolint_lmer()`.

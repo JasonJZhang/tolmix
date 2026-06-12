@@ -1,0 +1,22 @@
+Package: tolmix
+Type: Package
+Title: Tolerance Intervals for Random and Mixed Effects Models
+Version: 0.1.0
+Authors@R: person("J.", "Zhang", email = "zhangjc98@gmail.com",
+    role = c("aut", "cre"))
+Description: Computes one-sided and two-sided beta-content and
+    beta-expectation tolerance intervals for the distribution of a future
+    observation under one-way random effects models and general linear
+    mixed-effects models. Implements several approaches from the
+    literature: the Mee and Owen (1983) <doi:10.1080/01621459.1983.10477008>
+    one-sided limits, the Krishnamoorthy and Mathew (2004)
+    <doi:10.1198/004017004000000031> generalized pivotal quantity method,
+    the Hoffman and Kringle (2005) <doi:10.1198/106186005X78670> modified
+    large sample two-sided intervals, and Satterthwaite-type and parametric
+    bootstrap methods for models fitted with 'lme4' in the spirit of
+    Francq, Lin and Hoyer (2019) <doi:10.1002/sim.8281>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: stats
+Suggests: lme4, reformulas
+NeedsCompilation: no

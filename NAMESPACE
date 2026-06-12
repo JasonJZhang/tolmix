@@ -1,0 +1,7 @@
+export(tolint_oneway)
+export(tolint_lmer)
+S3method(print, tolint)
+importFrom(stats, qnorm, qt, qchisq, pnorm, rnorm, rchisq, quantile, var,
+           uniroot, model.matrix, model.frame, terms, delete.response,
+           formula, as.formula, simulate, vcov, sigma, complete.cases,
+           setNames, .getXlevels)

@@ -84,6 +84,9 @@ tolint_lmer(fit, newdata = data.frame(dose = 50), side = 2,
 General reference: Krishnamoorthy, K. and Mathew, T. (2009),
 *Statistical Tolerance Regions: Theory, Applications, and Computation*, Wiley.
 
+Full statistical and implementation details are in
+[docs/TECHNICAL.md](docs/TECHNICAL.md).
+
 ## Notes
 
 - For `side = 1`, both the lower and the upper one-sided limit are
